@@ -1,7 +1,7 @@
 Name: hunspell-hi
 Summary: Hindi hunspell dictionaries
 Version: 20050726
-Release: 11%{?dist}
+Release: 12%{?dist}
 Source: http://hunspell.sourceforge.net/hi-demo.tar.gz
 Group: Applications/Text
 URL: http://hunspell.sourceforge.net
@@ -31,6 +31,9 @@ cp -p hi/*.dic hi/*.aff $RPM_BUILD_ROOT/%{_datadir}/myspell
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20050726-12
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 20050726-11
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
